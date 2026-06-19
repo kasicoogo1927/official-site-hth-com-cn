@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kasicoogo1927.github.io/official-site-hth-com-cn/sitemap.xml
