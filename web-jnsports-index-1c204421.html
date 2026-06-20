@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>江南体育 · 日常查询与延伸阅读</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #faf7f2;
+      font-family: 'Segoe UI', Roboto, 'Helvetica Neue', system-ui, sans-serif;
+      line-height: 1.6;
+      color: #2c2b28;
+      padding: 2rem 1rem;
+    }
+    .page {
+      max-width: 880px;
+      margin: 0 auto;
+      background: #fffffffa;
+      border-radius: 28px;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.04);
+      padding: 2.4rem 2rem;
+    }
+    @media (max-width: 600px) {
+      .page { padding: 1.6rem 1.2rem; }
+      body { padding: 1rem 0.6rem; }
+    }
+
+    /* hero 区域 */
+    .hero {
+      padding: 1.6rem 0 1.2rem;
+      border-bottom: 1px solid #e6dfd4;
+    }
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 450;
+      letter-spacing: 1px;
+      color: #2f2a24;
+      margin-bottom: 0.3rem;
+      line-height: 1.2;
+    }
+    .hero .sub {
+      font-size: 1rem;
+      color: #6b645b;
+      background: #f1ece5;
+      display: inline-block;
+      padding: 0.2rem 1rem;
+      border-radius: 40px;
+      margin-top: 0.2rem;
+    }
+    .hero p {
+      margin-top: 0.8rem;
+      font-size: 1rem;
+      color: #3d3a35;
+      max-width: 700px;
+    }
+
+    /* 通用模块 */
+    section {
+      margin: 2.2rem 0;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 450;
+      border-left: 4px solid #b9aa94;
+      padding-left: 0.8rem;
+      margin-bottom: 1rem;
+      color: #2c2721;
+    }
+    p {
+      margin-bottom: 0.9rem;
+    }
+
+    /* 引用块 / 提示框 */
+    .inset-box {
+      background: #f4efe8;
+      border-left: 6px solid #c7b8a6;
+      padding: 1rem 1.4rem;
+      border-radius: 8px;
+      margin: 1.6rem 0;
+      color: #34302b;
+    }
+    .inset-box strong {
+      font-weight: 600;
+      color: #453d34;
+    }
+
+    /* 卡片风格——特点区域 */
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      margin: 1.2rem 0;
+    }
+    .feature-card {
+      flex: 1 1 200px;
+      background: #fcfaf7;
+      border: 1px solid #e4ddd2;
+      border-radius: 16px;
+      padding: 1.2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    }
+    .feature-card h3 {
+      font-weight: 500;
+      font-size: 1.1rem;
+      margin-bottom: 0.4rem;
+      color: #3f382f;
+    }
+    .feature-card p {
+      font-size: 0.94rem;
+      color: #554e45;
+    }
+
+    /* FAQ 摘要 */
+    .faq-item {
+      margin: 1rem 0;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px dashed #ded6c9;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q {
+      font-weight: 500;
+      color: #3e372e;
+      margin-bottom: 0.2rem;
+    }
+    .faq-a {
+      color: #565049;
+      font-size: 0.96rem;
+    }
+
+    /* 底部链接 */
+    .footer-links {
+      margin-top: 2.8rem;
+      padding-top: 1.6rem;
+      border-top: 1px solid #e0d8cc;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 0.92rem;
+      color: #4b443b;
+    }
+    .footer-links a {
+      color: #4b3f33;
+      text-decoration: none;
+      border-bottom: 1px dotted #b5a797;
+      transition: border 0.2s;
+    }
+    .footer-links a:hover {
+      border-bottom: 1px solid #4b3f33;
+    }
+    .inline-link {
+      color: #4c4137;
+      text-decoration: none;
+      border-bottom: 1px dotted #bba48c;
+      font-weight: 480;
+    }
+    .inline-link:hover {
+      border-bottom: 1px solid #4c4137;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- hero 区 -->
+  <div class="hero">
+    <h1>江南体育 · 记录与对照</h1>
+    <span class="sub">日常查询 · 延伸阅读</span>
+    <p>一份整理好的说明页，围绕赛事信息、项目规则、行业术语与常见问题。适合需要快速对照或延伸浏览的读者。</p>
+  </div>
+
+  <!-- 优势区：信息特征卡片 -->
+  <section>
+    <h2>内容组织的几个方向</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>项目速览</h3>
+        <p>田径、球类、水上运动等项目的基础术语与常见规则，便于赛前查阅。</p>
+      </div>
+      <div class="feature-card">
+        <h3>术语对照</h3>
+        <p>部分英文缩写、计分方式、判罚要点以简明表格或条目形式列出。</p>
+      </div>
+      <div class="feature-card">
+        <h3>赛事背景</h3>
+        <p>主流联赛、锦标赛的赛制简介与周期，方便理解赛程结构。</p>
+      </div>
+      <div class="feature-card">
+        <h3>延伸阅读</h3>
+        <p>运动生理、战术解析、器材演变等非即时但有助于加深理解的内容。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 说明区：从日常查询切入 -->
+  <section>
+    <h2>查询与对照：从信息到理解</h2>
+    <p>很多用户在浏览体育信息时，并非需要深度分析，而是想快速确认某个规则、某支队伍的历史或是某个术语的含义。因此，这份页面以“整理过的知识块”作为出发点，把零散信息组织成可参照的条目。</p>
+    <p>例如，在查看一场篮球比赛时，你可能需要确认“违体犯规”与“技术犯规”的区别；在浏览田径纪录时，可能想了解“风速补偿”的基本概念。这里的条目并不追求百科式的详尽，而是尽量用平实的语言把核心差异说明白。</p>
+
+    <div class="inset-box">
+      <strong>🧷 一个说明</strong><br>
+      页面中引用的数据或规则以常见版本为准，具体以当季官方手册或最新修订为依据。建议结合<a href="https://web-jnsports.com" class="inline-link">江南体育</a>中的赛事动态进行交叉对照，以获得更完整的信息。
+    </div>
+
+    <p>同时，我们也加入了一些“延伸阅读”线索。比如，从某项运动的器材演变，可以引出不同材质对比赛节奏的影响；从某条规则的修改，可以串联起战术打法的变迁。这类内容不需要一次性读完，适合在浏览间隙作为补充。</p>
+  </section>
+
+  <!-- 额外说明区：场景举例 -->
+  <section>
+    <h2>常见使用场景</h2>
+    <p><strong>赛前快速对照</strong> — 比如一场网球比赛前，想确认大满贯赛事的决胜盘规则差异（长盘 vs 抢七），这里会列出最主要的几种赛制。</p>
+    <p><strong>赛后理解疑点</strong> — 足球比赛中出现VAR介入，如果你对“清晰明显的错误”这一标准有疑问，可以参考相关判例说明。</p>
+    <p><strong>延伸兴趣</strong> — 从“马拉松配速策略”衍生到能量补给的时间窗口，这部分内容虽然不算基础，但可以作为扩展阅读。</p>
+    <p>以上所有内容都保持客观表述，不提供预测、建议或承诺。用户最终判断仍应结合官方信息与实际情况。</p>
+  </section>
+
+  <!-- FAQ 摘要 -->
+  <section>
+    <h2>FAQ · 部分常见问题</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">Q：某运动项目的“犯规”与“违例”有何区别？</div>
+      <div class="faq-a">A：不同项目定义不同。通常“犯规”涉及身体接触或违反体育道德，而“违例”多与技术规则有关（如走步、二次运球）。具体可查阅对应项目的规则章节。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q：为什么某些赛事会有“种子选手”的设定？</div>
+      <div class="faq-a">A：种子制度是为了避免高水平选手在早期轮次相遇，通常依据世界排名或历史战绩确定。不同赛事种子数量及排位规则略有差异。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q：哪里可以查最新的赛事日历或结果？</div>
+      <div class="faq-a">A：各运动项目的官方联合会或职业联盟网站最为准确。此外，<a href="https://web-jnsports.com" class="inline-link">江南体育</a>也聚合了部分赛事信息与数据，可作为辅助参考。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q：页面中的术语是否适用于所有级别的比赛？</div>
+      <div class="faq-a">A：部分术语在业余比赛或青少年赛事中可能略有调整。建议以具体赛事规程为准。</div>
+    </div>
+  </section>
+
+  <!-- 底部链接 -->
+  <div class="footer-links">
+    <span>更多信息参考 <a href="https://web-jnsports.com">江南体育</a></span>
+    <span>· 内容仅供学习与交流 · 更新于近期</span>
+  </div>
+
+</div>
+</body>
+</html>
