@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小艾电竞 · 专题介绍</title>
+  <style>
+    /* reset & base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f8f7f4;
+      color: #1e1e1e;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans SC", sans-serif;
+      line-height: 1.7;
+      padding: 2rem 1.2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .page {
+      max-width: 720px;
+      width: 100%;
+    }
+
+    /* hero */
+    .hero {
+      padding: 3.2rem 0 2.4rem 0;
+      border-bottom: 1px solid #dfdcd5;
+    }
+
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #121212;
+      margin-bottom: 0.6rem;
+    }
+
+    .hero .subhead {
+      font-size: 1.1rem;
+      color: #5a5853;
+      font-weight: 380;
+      max-width: 90%;
+    }
+
+    /* background note */
+    .bg-note {
+      background: #eeebe6;
+      border-radius: 20px;
+      padding: 1.6rem 2rem;
+      margin: 2.4rem 0;
+      font-size: 0.95rem;
+      color: #2f2d28;
+      border: 1px solid #e2ddd6;
+    }
+
+    .bg-note strong {
+      font-weight: 500;
+      color: #1c1b19;
+    }
+
+    /* section titles */
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 480;
+      letter-spacing: -0.01em;
+      margin: 2.4rem 0 1rem 0;
+      color: #1a1a18;
+      border-left: 4px solid #b0a89b;
+      padding-left: 1rem;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 450;
+      margin: 1.6rem 0 0.6rem 0;
+      color: #2b2925;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      color: #2e2c27;
+    }
+
+    /* inline link – only one allowed style */
+    a {
+      color: #2f5b4f;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      text-decoration-color: #b9c9b3;
+      transition: color 0.2s, text-decoration-color 0.2s;
+    }
+
+    a:hover {
+      color: #1c3d33;
+      text-decoration-color: #7f9c84;
+    }
+
+    /* feature cards — clean minimal */
+    .feature-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      margin: 1.8rem 0;
+    }
+
+    .feature-item {
+      background: #ffffff;
+      border: 1px solid #e5e0d9;
+      border-radius: 16px;
+      padding: 1.3rem 1.6rem;
+    }
+
+    .feature-item .title {
+      font-weight: 480;
+      font-size: 1.1rem;
+      color: #1f1e1b;
+      margin-bottom: 0.4rem;
+    }
+
+    .feature-item p {
+      margin-bottom: 0;
+      font-size: 0.95rem;
+      color: #3b3934;
+    }
+
+    /* faq summary */
+    .faq-block {
+      margin: 2.4rem 0 2rem 0;
+      border-top: 1px solid #ddd9d1;
+      padding-top: 1.8rem;
+    }
+
+    .faq-item {
+      margin-bottom: 1.2rem;
+    }
+
+    .faq-item .q {
+      font-weight: 500;
+      font-size: 1rem;
+      color: #1f1e1a;
+      margin-bottom: 0.2rem;
+    }
+
+    .faq-item .a {
+      color: #4c4942;
+      font-size: 0.95rem;
+    }
+
+    /* footer / coda */
+    .coda {
+      margin: 3rem 0 1.8rem 0;
+      padding-top: 1.8rem;
+      border-top: 1px solid #dfdcd5;
+      text-align: left;
+      font-size: 0.95rem;
+      color: #4f4b44;
+      line-height: 1.7;
+    }
+
+    .coda a {
+      font-weight: 450;
+    }
+
+    /* responsive */
+    @media (max-width: 500px) {
+      body {
+        padding: 1.2rem 1rem;
+      }
+
+      .hero h1 {
+        font-size: 1.9rem;
+      }
+
+      .hero .subhead {
+        font-size: 1rem;
+      }
+
+      .bg-note {
+        padding: 1.2rem 1.4rem;
+      }
+
+      .feature-item {
+        padding: 1rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- hero -->
+    <div class="hero">
+      <h1>小艾电竞</h1>
+      <div class="subhead">围绕赛事、社区与日常场景，逐步构建的参考页面</div>
+    </div>
+
+    <!-- background 说明 -->
+    <div class="bg-note">
+      <strong>背景说明</strong><br>
+      这份专题介绍围绕「小艾电竞」延伸出的内容线索整理而成。不侧重即时数据或排行，而是梳理它在概念层面的几个切面：活动组织、信息传递、以及参与者之间形成的轻量协作方式。以下三段分别从不同角度展开，末尾附有 FAQ 摘要。
+    </div>
+
+    <!-- 第一段：从关键词展开 -->
+    <h2>一、主题脉络 · 不只是名词</h2>
+    <p>
+      当我们谈论「小艾电竞」时，实际上在谈论一个由兴趣驱动、带有俱乐部色彩的松散场域。它不强调竞技的极端性，而更关注赛事观看、复盘讨论、以及跨游戏类型的日常交流。过去几年，这种模式在中小型线上社群中逐渐成型——没有固定赛程，却有自发的训练局；没有官方解说，但参与者会整理战术笔记和录像片段。这些内容经过再编辑，反而形成了一种更贴近玩家视角的信息流。
+    </p>
+    <p>
+      从关键词本身出发，可以看到它指向的是一套轻量的活动框架：以特定游戏（如 MOBA、FPS、自走棋）为基底，以周常或月常的友谊赛为节点，以文字或语音频道的即时沟通为纽带。许多参与过类似组织的朋友对它的评价是：<em>“门槛不高，但持续参与需要一点认真”</em>。
+    </p>
+
+    <!-- 第二段：特点与常见场景 -->
+    <h2>二、特点与常见场景</h2>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <div class="title">赛事复盘与文档化</div>
+        <p>每次对局后，参与者会将录屏、时间戳、关键决策点整理成短文档或表格，积累成可查阅的档案。这些材料不对外公开，仅内部成员使用，但一定程度上提升了团队的战术讨论效率。</p>
+      </div>
+      <div class="feature-item">
+        <div class="title">跨游戏兴趣交叉</div>
+        <p>同一个圈子可能同时活跃于两三款游戏，成员会根据当期活动主题切换项目。这种多游戏并行的模式，减少了单一游戏热度消退带来的松散感，也让话题更加多样。</p>
+      </div>
+      <div class="feature-item">
+        <div class="title">轻量级信息台</div>
+        <p>部分成员会定期整理赛程、版本更新摘要、以及社区里值得关注的讨论串。这些内容通过共享文档或频道置顶发布，形成一种非正式但稳定的信息流服务。</p>
+      </div>
+    </div>
+
+    <!-- 第三段：自然收束 + 引入链接 -->
+    <h2>三、界面之外 · 一个可触达的节点</h2>
+    <p>
+      上述所有活动，最终都需要一个汇聚的入口。无论是查阅整理后的资料、了解下一轮活动安排，还是单纯想看看这个圈子目前的状态，都可以通过一个集中的页面完成。这个页面就是 <a href="https://portal-xiaoaidj.com">小艾电竞</a> ——它不扮演门户或平台的角色，更像一个说明牌与索引，把分散的信息和联系方式收拢在一起，方便新朋友或老成员快速定位。
+    </p>
+    <p>
+      专题页面本身只做介绍性陈列，不替代任何实际操作。如果你对这个主题下的内容或活动方式感兴趣，可以通过上述链接了解更具体的说明与后续安排。
+    </p>
+
+    <!-- FAQ 摘要 -->
+    <div class="faq-block">
+      <h2 style="border-left-color: #c9c0b3; margin-top: 0;">常见问题摘要</h2>
+      <div class="faq-item">
+        <div class="q">Q：这是一家俱乐部吗？还是媒体？</div>
+        <div class="a">更接近一种自发形成的兴趣小组/微社区，不注册机构、不进行商业化运营，主要活动以线上切磋和信息整理为主。</div>
+      </div>
+      <div class="faq-item">
+        <div class="q">Q：是否需要付费或申请才能参与？</div>
+        <div class="a">不需要费用。参与方式以公开的联络渠道为准，具体门槛请参考 <a href="https://portal-xiaoaidj.com">小艾电竞</a> 页面上列出的说明。</div>
+      </div>
+      <div class="faq-item">
+        <div class="q">Q：专题页面多久更新一次？</div>
+        <div class="a">本页面为静态介绍页，仅在内容框架或联系方式发生变化时调整，不追踪实时数据。</div>
+      </div>
+    </div>
+
+    <!-- 页尾访问提示 -->
+    <div class="coda">
+      <p>如果你希望进一步了解这个圈子的活动节奏、当前正在进行的项目或文档存放位置，可直接前往 <a href="https://portal-xiaoaidj.com">小艾电竞</a> 查阅详细说明。<br>
+      本专题页由兴趣维护，所涉及的内容均来自公开整理与成员授权信息，不包含任何非公开数据或诱导性表述。</p>
+    </div>
+
+  </div>
+</body>
+</html>
